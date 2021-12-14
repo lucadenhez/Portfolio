@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>luca denhez | portfolio</title>
+        <link rel="stylesheet" href="styles/styles.css">
+        <link rel="icon" type="image/png" href="toolbox.png">
+
         <meta name="title" content="luca denhez | portfolio">
         <meta name="description" content="Showcasing my work and passion throughout time. The things that drive me, design, programming, and more.">
         <meta name="keywords" content="portfolio, design, programming, coding, student">
@@ -9,8 +11,25 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <meta name="language" content="English">
         <meta name="author" content="Luca Denhez">
+
+        <title>Under Construction</title>
     </head>
     <body>
-        <p>To be created soon!</p>
+        <div class="wrapper">
+            <div class="titleContainer">
+                <h1 id="title">This website is under construction  🛠</h1>
+                <p id="subtitle">For now. It should be up in a few weeks! See you then.</p>
+            </div>
+        </div>
+        <canvas class="background"></canvas>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
+        <script>
+            window.onload = function() {
+                Particles.init({
+                    selector: '.background',
+                    color: "#FFFFFF"
+                });
+            };
+        </script>
     </body>
 </html>
