@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My portfolio showcasing my work throughout the years. In the future, this will be used toward school applications and job opportunities.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucadenhez/Portfolio.git"
+  },
+  "author": "Luca Denhez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucadenhez/Portfolio/issues"
+  },
+  "homepage": "https://github.com/lucadenhez/Portfolio#readme"
+}
