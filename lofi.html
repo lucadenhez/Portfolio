@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>luca's lofi</title>
+        <meta name="title" content="luca's lofi'">
+        <meta name="description" content="you found my chill lofi page. sick! take as much time as you need.. 🍵">
+        <meta name="robots" content="index, follow">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="language" content="English">
+        <meta name="author" content="Luca Denhez">
+
+        <link rel="stylesheet" href="styles/lofi.css">
+        <script src="scripts/lofi.js"></script>
+    </head>
+    <body>
+        <div class="buttonsContainer">
+            <button id="play" onclick="check();">Play/Pause</button>
+            <button id="backward" onclick="backwards();">Back</button>
+            <button id="next" onclick="next();">Next</button>
+        </div>
+        <audio controls autoplay id="music" style="display: none;">
+            <script>
+                var songsAmount = 20;
+                
+                music.src = "music/" + Math.floor(Math.random() * songsAmount).toString() + ".mp3";
+                console.log("Now playing: " + music.src + " (May not play due to browser autoplay restrictions.)");
+            </script>
+            <source type="audio/mpeg" src="music/0.mp3">
+        </audio>
+    </body>
+</html>
